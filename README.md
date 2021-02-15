@@ -7,7 +7,7 @@
 **Firefox-Browser-Proton-Custom** is a more "cleaner" version of my custom [Firefox-Browser-UI-Custom](https://github.com/gabeweb/Firefox-Browser-UI-Custom/)
 and aditionally has some extra things like:
 
-- Revert to some Firefox standard items, but keeping the customized url-bar, **widgtets panel** and useful ***go-arrow*** button.
+- Revert to some Firefox standard items, but keeping the customized url-bar, close button hovering over unselectd tabs, **widgtets panel** and useful ***go-arrow*** button.
 
 But first you must verify that you have these parameters activated via *about:config*:
 
