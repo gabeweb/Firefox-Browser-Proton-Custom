@@ -16,7 +16,7 @@
 
 ## How to?
 
-* Your must enable via `about:config` the `toolkit.legacyUserProfileCustomizations.stylesheets` in Firefox.
+* Your must enable via `about:config` the `toolkit.legacyUserProfileCustomizations.stylesheets`, `browser.proton.enabled` and `browser.proton.tabs.enabled` in Firefox.
 
 * Download the [userChrome.css](userChrome.css) file (for Firefox Browser 86+ version) and save it (*right-click* -> *Save Link As...*) to your `Roaming\Mozilla\Firefox\Profiles\[User]\chrome` folder (`%APPDATA%\Mozilla\Firefox\Profiles\` on Windows) or go to `about:profiles` (in Firefox) and locate the `Roaming` folder of your profile.
 
@@ -41,11 +41,6 @@ and aditionally has some extra things like:
 ![Screenshot](Firefox-Browser-Proton-Custom-Win10-06.png)
 (Firefox Browser Proton Custom - Firefox Browser 86 Developer Edition - Windows 10 Default Theme)
 
-
-
-But first you must verify that you have these parameters activated via *about:config*:
-
-- `browser.proton.enabled` and `browser.proton.tabs.enabled` must be ***true***
 
 This *userChrome.css* file use code snippets collected from other sources, so the credits (mostly) are for their authors:
 
