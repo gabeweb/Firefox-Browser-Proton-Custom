@@ -14,6 +14,14 @@
 ![Screenshot](Firefox-Browser-Proton-Custom-Win10-02.png)
 (Firefox Browser Proton Custom - Firefox Browser 86 Developer Edition - Windows 10 Default Theme)
 
+## How to?
+
+* Your must enable via `about:config` the `toolkit.legacyUserProfileCustomizations.stylesheets` in Firefox.
+
+* Download the [userChrome.css](userChrome.css) file (for Firefox Browser 86+ version) and save it (*right-click* -> *Save Link As...*) to your `Roaming\Mozilla\Firefox\Profiles\[User]\chrome` folder (`%APPDATA%\Mozilla\Firefox\Profiles\` on Windows) or go to `about:profiles` (in Firefox) and locate the `Roaming` folder of your profile.
+
+* Restart Firefox to see the changes.
+
 ## Features?
 
 **Firefox-Browser-Proton-Custom** is a more "cleaner" version of my custom [Firefox-Browser-UI-Custom](https://github.com/gabeweb/Firefox-Browser-UI-Custom/)
